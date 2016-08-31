@@ -212,5 +212,11 @@ a.b.slim, button.slim { padding: 0.2rem 1rem 0.1rem 1rem; }
     justify-content: center; -webkit-justify-content: center;
     flex-grow: 1; -webkit-flex-grow: 1;
 }
-.contacts a { font-size: 1.1rem; }
+.contacts a {
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.1rem 0.4rem 0.2rem;
+    border-radius: 2px;
+    color: #d1ff54;
+}
 .contacts a:hover { color: #fff; }
