@@ -29,16 +29,7 @@ body, button, a {
     padding-bottom: 1rem;
     line-height: 3rem;
 }
-.contacts {
-    text-align: center;
-    font-size: 2rem;
-    line-height: 4.6rem;
-}
-.contacts .regions {
-    display: flex; display: -webkit-flex;
-    justify-content: center; -webkit-justify-content: center;
-    flex-grow: 1; -webkit-flex-grow: 1;
-}
+
 .info, .info-title {
     font-size: 1rem;
     line-height: 2rem;
@@ -210,3 +201,16 @@ a.b.slim, button.slim { padding: 0.2rem 1rem 0.1rem 1rem; }
 	content: '';
 	border-top: 0.1rem solid rgba(200,200,200,0.3);
 }
+
+.contacts {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4.6rem;
+}
+.contacts .regions {
+    display: flex; display: -webkit-flex;
+    justify-content: center; -webkit-justify-content: center;
+    flex-grow: 1; -webkit-flex-grow: 1;
+}
+.contacts a { font-size: 1.1rem; }
+.contacts a:hover { color: #fff; }
