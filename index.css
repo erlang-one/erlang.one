@@ -12,6 +12,8 @@ body {
     margin: 0rem;
     color: #444;
 }
+body.ru span.en, body:not(.ru) span.ru { display: none; }
+
 body, button, a {
     font-weight: 300;
     font-family: Helvetica, RobotoDraft, arial, sans-serif;
@@ -20,6 +22,7 @@ body, button, a {
     color: #fff;
     background-color: #333;
     background-size: cover;
+    background-position-x: center;
     min-height: 100%;
 }
 .chapter {

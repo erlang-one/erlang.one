@@ -7,10 +7,15 @@
     <body>
         <div id='landing'>
             <div class='content'>
-                <div class="content-title"><span id='radiation'>High Performance IoT 
-                    and Streaming Applications</span><span id='cursor'></span></div>
+                <div class="content-title">
+                    <span id='radiation'>
+                        High Performance IoT and Streaming Applications
+                    </span>
+                    <span id='cursor'></span>
+                </div>
                 <div class='chapter'>
-                    Want Fast Web Applications?
+                    <span class='en'>Want Fast Web Applications?</span>
+                    <span class='ru'>Хочешь быстрых веб-приложений?</span>
                 </div>
                 <div class='contacts'>
                     Contact Us
@@ -84,42 +89,7 @@
                 <a target='_blank' href='http://hp.com'>Background mage: HP Moonshot</a>
             </section>
         </footer>
-        <script>
-            function qi(name) { return document.getElementById(name); }
-            window.setInterval(function() {
-                var c = qi('cursor');
-                if (c) { c.classList.contains('tick') ? c.classList.remove('tick') : c.classList.add('tick'); }
-            },500);
-            var restore = (function(){ qi('radiation').innerText=this; }).bind(qi('radiation').innerText);
-            x=[['a','p','7','q'],['g','i','d','j'],['s','e','x','o']];
-            function radiation(num,mode) {
-                var r = qi('radiation');
-                var y = num % 2 ? x[(num-1)/2] : x[num/2].reverse();
-                r.innerText = r.innerText.replace(new RegExp(y[0],mode),y[2]).replace(new RegExp(y[1],mode),y[3]);
-            };
-            function light(num,mode) {
-                var e = qs(num % 2 ? '.synrc' : '.erlach' );
-                if (e) { mode % 2 ? e.classList.add('light') : e.classList.remove('light'); }
-            };
-            function rand(min, max) {
-              return Math.floor(Math.random() * (max - min)) + min;
-            }
-            window.onload = function(){
-                qi('landing').style.backgroundImage = "url(/background.jpg)";
-                
-                window.setTimeout(function rad(m){
-                    m = m === undefined ? 100 : m;
-                    var n, d = rand(0,256);
-                    var t = Math.round(d/(Math.log(m)+1));
-                    switch(d % 3) {
-                        case 1: n = (m % 2) + 2; break;
-                        case 2: n = (m % 2) + 4; break;
-                        default: n = m % 2;
-                    }
-                    radiation(n,d % 2 ? '' : 'g');
-                    m ? setTimeout(rad, t, --m) : restore();
-                },4)
-            };
-        </script>
+        <script type='text/javascript' src='/index.js'></script>
+        <script> init(); </script>
     </body>
 </html>
