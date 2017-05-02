@@ -113,6 +113,16 @@ function loadDocument(){
                 var site = getSpecialLink('site',doc);
                 site && document.getElementById('info-site').insertAdjacentElement('afterbegin',site);
                 document.getElementById('markdown').innerHTML = doc.innerHTML;
+                
+                var hash = document.location.hash;
+                var sec = document.getElementById(hash.slice(1));
+                if(hash !== "" && sec) {
+                    sec.scrollIntoView();
+                    var head = document.getElementById('localnav');
+                    if(head) {
+                        window.scrollBy(0,-head.clientHeight);
+                    }
+                }
             }
         }
     }
