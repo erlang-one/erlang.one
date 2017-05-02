@@ -24,7 +24,7 @@ May, 2017
 До этого N2O поддерживал передачу своих данных, кодированных в [BERT](http://bert-rpc.org/), **XML**, **JSON**, **MessagePack** и **TEXT** через 
 протокол [WebSocket](https://en.wikipedia.org/wiki/WebSocket), теперь это возможно подключением по 
 WebSocket, [MQTT](https://en.wikipedia.org/wiki/MQTT), [Stomp](https://stomp.github.io/), 
-[CoAP](http://coap.technology/) и [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) что связано 
+[CoAP](http://coap.technology/) и [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)/[UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) что связано 
 с использованием [EMQ](http://emqtt.io/) - чистого и лаконичного MQTT-брокера, написанного также на Erlang.
 
 ## Forced changes
