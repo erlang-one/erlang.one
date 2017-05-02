@@ -11,11 +11,15 @@ May, 2017
 
 # Спецвыпуск: N2O для ненадёжных сетей и IoT периферии
 
+## Become more reliable
+
 [N2O](https://github.com/synrc/n2o) - высокопроизводительный и компактный full-stack релей-сервер приложений на [Erlang](https://www.erlang.org/), форкнутый от 
 фреймвока Nitrogen и вобравший в себя когда-то лучшие его идеи. Четыре года назад N2O избавился от ненужных зависимостей и 
 стал одновременно мощным средством для создания web-приложений. А сегодня, начиная с версии N2O-4.5, протоколы данных 
 переведены на более высокий уровень и становятся лежащими поверх протокола [MQTT 5.0](https://en.wikipedia.org/wiki/MQTT), обеспечивающего доставку сообщений в 
 ненадёжных сетях с уровнями [QoS](https://en.wikipedia.org/wiki/Quality_of_service) 0, 1 и 2. 
+
+## Forced changes
 
 До этого N2O поддерживал передачу своих данных, кодированных в [BERT](http://bert-rpc.org/), **XML**, **JSON**, **MessagePack** и **TEXT** через 
 протокол [WebSocket](https://en.wikipedia.org/wiki/WebSocket), теперь это возможно подключением по 
@@ -26,7 +30,8 @@ WebSocket, [MQTT](https://en.wikipedia.org/wiki/MQTT), [Stomp](https://stomp.git
 Мы создали [плагин к EMQ](https://github.com/synrc/mqtt), работающий полностью в рамках сессий [EMQ](http://emqtt.io/), подобно тому как N2O 
 работал в сессиях [Ranch](https://github.com/ninenines/ranch).
 
-## Ключевые аспекты N2O:
+## Features of N2O
+
 - Бинарные протоколы и обновление контента сервером без задержек через [полнодуплексную связь](https://en.wikipedia.org/wiki/Duplex_(telecommunications)#Full_duplex).
 - Шифрование [AES CBC 128](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
 - Приложения [SPA](https://en.wikipedia.org/wiki/Single-page_application), и классические [Dynamic Pages](https://en.wikipedia.org/wiki/Dynamic_web_page).
