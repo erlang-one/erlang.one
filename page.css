@@ -162,7 +162,8 @@ footer section.follow {
 #markdown > p {
     column-count: 2; -moz-column-count: 2; -webkit-column-count: 2;
     column-gap: 3rem; -moz-column-gap: 3rem; -webkit-column-gap: 3rem;
-    
+}
+#markdown > p, #markdown > ul > li {
     padding-left: 1.4rem;
     padding-right: 1.4rem;
     font-size: 1.15rem;
