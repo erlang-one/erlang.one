@@ -19,7 +19,7 @@ May, 2017
 переведены на более высокий уровень и становятся лежащими поверх протокола [MQTT 5.0](https://en.wikipedia.org/wiki/MQTT), обеспечивающего доставку сообщений в 
 ненадёжных сетях с уровнями [QoS](https://en.wikipedia.org/wiki/Quality_of_service) 0, 1 и 2. 
 
-## Forced changes
+## More compatibility with IoT
 
 До этого N2O поддерживал передачу своих данных, кодированных в [BERT](http://bert-rpc.org/), **XML**, **JSON**, **MessagePack** и **TEXT** через 
 протокол [WebSocket](https://en.wikipedia.org/wiki/WebSocket), теперь это возможно подключением по 
@@ -27,8 +27,9 @@ WebSocket, [MQTT](https://en.wikipedia.org/wiki/MQTT), [Stomp](https://stomp.git
 [CoAP](http://coap.technology/) и [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) что связано 
 с использованием [EMQ](http://emqtt.io/) - чистого и лаконичного MQTT-брокера, написанного также на Erlang.
 
-Мы создали [плагин к EMQ](https://github.com/synrc/mqtt), работающий полностью в рамках сессий [EMQ](http://emqtt.io/), подобно тому как N2O 
-работал в сессиях [Ranch](https://github.com/ninenines/ranch).
+## Forced changes
+
+Мы создали [плагин к EMQ](https://github.com/synrc/mqtt), работающий полностью в рамках сессий [EMQ](http://emqtt.io/), подобно тому как N2O работал в сессиях [Ranch](https://github.com/ninenines/ranch).
 
 ## Features of N2O
 
