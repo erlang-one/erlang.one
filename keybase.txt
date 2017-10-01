@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/m2k
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://erlang.one
+  * I am m2k (https://keybase.io/m2k) on keybase.
+  * I have a public key ASBQ3vb7NveFw4ZbfUA1Rb_fKaQC4ydfIE7uYJTGFMhK-wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012050def6fb36f785c3865b7d403545bfdf29a402e3275f204eee6094c614c84afb0a",
+      "host": "keybase.io",
+      "kid": "012050def6fb36f785c3865b7d403545bfdf29a402e3275f204eee6094c614c84afb0a",
+      "uid": "d9b0b38e22abf635004fa4efee325419",
+      "username": "m2k"
+    },
+    "merkle_root": {
+      "ctime": 1506880182,
+      "hash": "f4336f7ad896bdfea7cb85d4a19f7439cba6a15860c6d6bbb0ac2488fa3586178de12ceda179e74380df868384d66f1a102abbb79efe9931d3654903824186ab",
+      "hash_meta": "18522592b78162e0aafa776a77c7ae10c89cce7852514bafe98b032e937f4ece",
+      "seqno": 1482023
+    },
+    "service": {
+      "hostname": "erlang.one",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.31"
+  },
+  "ctime": 1506880214,
+  "expire_in": 504576000,
+  "prev": "ac871ffd1787418e618df68a5fa55119b346fe4866f770100c659b70a6df2b6b",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUN72+zb3hcOGW31ANUW/3ymkAuMnXyBO7mCUxhTISvsKp3BheWxvYWTFAzx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNTBkZWY2ZmIzNmY3ODVjMzg2NWI3ZDQwMzU0NWJmZGYyOWE0MDJlMzI3NWYyMDRlZWU2MDk0YzYxNGM4NGFmYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTBkZWY2ZmIzNmY3ODVjMzg2NWI3ZDQwMzU0NWJmZGYyOWE0MDJlMzI3NWYyMDRlZWU2MDk0YzYxNGM4NGFmYjBhIiwidWlkIjoiZDliMGIzOGUyMmFiZjYzNTAwNGZhNGVmZWUzMjU0MTkiLCJ1c2VybmFtZSI6Im0yayJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNjg4MDE4MiwiaGFzaCI6ImY0MzM2ZjdhZDg5NmJkZmVhN2NiODVkNGExOWY3NDM5Y2JhNmExNTg2MGM2ZDZiYmIwYWMyNDg4ZmEzNTg2MTc4ZGUxMmNlZGExNzllNzQzODBkZjg2ODM4NGQ2NmYxYTEwMmFiYmI3OWVmZTk5MzFkMzY1NDkwMzgyNDE4NmFiIiwiaGFzaF9tZXRhIjoiMTg1MjI1OTJiNzgxNjJlMGFhZmE3NzZhNzdjN2FlMTBjODljY2U3ODUyNTE0YmFmZTk4YjAzMmU5MzdmNGVjZSIsInNlcW5vIjoxNDgyMDIzfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImVybGFuZy5vbmUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjMxIn0sImN0aW1lIjoxNTA2ODgwMjE0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImFjODcxZmZkMTc4NzQxOGU2MThkZjY4YTVmYTU1MTE5YjM0NmZlNDg2NmY3NzAxMDBjNjU5YjcwYTZkZjJiNmIiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED4LgM5UaZ0eIJHKs/w8TCzK6RYtokERg42YVzmMJiax3LbHXMADWWYEIPdwQ7wakajUESU04W6GbVPEngExqQEqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgAX+kPH7YjjR+DqsnugKvaQrwiASEEa8JT0/z8jf/bPWjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/m2k
+
+==================================================================
